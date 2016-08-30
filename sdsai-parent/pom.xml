@@ -2,17 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.sdsai</groupId>
-    <artifactId>sdsai-all</artifactId>
+    <artifactId>sdsai-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>sdsai-all</name>
+    <name>sdsai-parent</name>
     <url>https://github.com/basking2/sdsai</url>
-
-    <modules>
-        <module>sdsai-parent</module>
-        <module>sdsai-tree</module>
-        <module>sdsai-experimental</module>
-    </modules>
 
     <build>
         <defaultGoal>install</defaultGoal>
